@@ -1,45 +1,23 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="icon" href="premier/src/main/webapp/assets/docs/favicon.ico">
-    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/starter-template/">
-    <title>Bootstrap 101 Template</title>
-
-    
-    <link href="premier/src/main/webapp/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-       
-    <link href="premier/src/main/webapp/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    
-    <link href="premier/src/main/webapp/assets/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    
-    <link href="starter-template.css" rel="stylesheet">
-
- 
-    <script src="premier/src/main/webapp/assets/docs/assets/js/ie-emulation-modes-warning.js"></script>
-    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   
   </head>
   <body>
     
  <div class="container">
-
-      <form class="form-signin">
+   
+      <form class="form-signin"  method ="post">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
+        <input type="text" class="input-block-level" placeholder="Email address"  name ="email" required autofocus>
+        <input type="password"  class="input-block-level" placeholder="Password" name= "password" required> 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       </form>
 
@@ -74,8 +52,6 @@
 
 <!--     </div> -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
-    <script src="premier/src/main/webapp/assets/dist/js/bootstrap.min.js"></script>
+   
   </body>
 </html>

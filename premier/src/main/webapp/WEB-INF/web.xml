@@ -18,6 +18,20 @@ version="3.0">
 <url-pattern>/loging</url-pattern>
 
 </servlet-mapping>
+<servlet>
+
+<servlet-name>ConverterServlet</servlet-name>
+<servlet-class>com.Ocpremier.servlets.ConverterServlet</servlet-class>
+
+</servlet>
+
+
+<servlet-mapping>
+
+<servlet-name>ConverterServlet</servlet-name>
+<url-pattern>/converter</url-pattern>
+
+</servlet-mapping>
 
 <filter>
 
