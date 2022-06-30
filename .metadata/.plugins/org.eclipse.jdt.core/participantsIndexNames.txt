@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 C:\Users\User\WorkspaceEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2446357777.index
 \premier\src\main\java
+C:\Users\User\WorkspaceEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\841097466.index
+\JEE_Etudiant\src\main\java
